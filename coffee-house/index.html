@@ -1,11 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coffee House</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee House</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <section class="coffeehouse-site">
+      <div class="main-container">
+        <header class="header">
+          <div class="header-container">
+            <div class="header-logo">
+              <img src="./assets/images/logo.png" alt="logo" />
+            </div>
+            <nav class="header-menu">
+              <ul>
+                <li><a href="#">Favorite coffee</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Mobile app</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </nav>
+            <div class="coffee-menu">
+              <span>Menu</span>
+              <img src="./assets/images/coffee-cup.svg" alt="coffee cup" />
+            </div>
+          </div>
+          <div class="header-hero">
+            <div class="offer">
+              <div class="offer-title">
+                <span class="oblique">Enjoy</span> premium coffee at our
+                charming cafe
+              </div>
+              <div class="offer-text">
+                With its inviting atmosphere and delicious coffee options, the
+                Coffee House Resource is a popular destination for coffee lovers
+                and those seeking a warm and inviting space to enjoy their
+                favorite beverage.
+              </div>
+              <div class="offer-button">
+                <button>Menu</button>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main>
+          <div class="favorite-coffee">
+            <div class="favorite-coffee-title">
+              Choose your <span class="oblique">favorite</span> coffee
+            </div>
+            <div class="favorite-coffee-container">
+              <div class="favorite-coffee-wrapper">
+                <button class="button-arrow-left">
+                  <img src="./assets/images/Vector-left.svg" alt="arrow left" />
+                </button>
+                <div class="favorite-coffee-slide">
+                  <div class="slide-image">
+                    <img src="./assets/images/coffee-slider-1.png" alt="" />
+                  </div>
+                  <div class="slide-title">S’mores Frappuccino</div>
+                  <div class="slide-text">
+                    This new drink takes an espresso and mixes it with brown
+                    sugar and cinnamon before being topped with oat milk.
+                  </div>
+                  <div class="slide-price">$5.50</div>
+                </div>
+                <button button="button-arrow-right">
+                  <img
+                    src="./assets/images/Vector-right.svg"
+                    alt="arrow right"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="slide-controls">
+              <div class="slide-control"></div>
+              <div class="slide-control"></div>
+              <div class="slide-control"></div>
+            </div>
+          </div>
+          <div class="about">
+            <div class="about-title">
+              Resource is
+              <span class="oblique">the perfect and cozy place</span> where you
+              can enjoy a variety of hot beverages, relax, catch up with
+              friends, or get some work done.
+            </div>
+            <div class="about-images">
+              <div class="about-images-column">
+                <div id="about-image-1"></div>
+                <div id="about-image-2"></div>
+              </div>
+              <div class="about-images-column">
+                <div id="about-image-3"></div>
+                <div id="about-image-4"></div>
+              </div>
+            </div>
+          </div>
+          <div class="mobile-app"></div>
+        </main>
+        <footer class="footer"></footer>
+      </div>
+    </section>
+  </body>
 </html>
