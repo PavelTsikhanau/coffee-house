@@ -543,3 +543,9 @@ html {
   color: #E1D4C9;
 }
 
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: start;
+}
