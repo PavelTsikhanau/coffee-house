@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 /* fonts */
 @font-face {
   font-family: 'Inter';
-  src: url("/coffee-house/assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf");
+  src: url("../assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf");
 }
 
 /* styles */
@@ -350,7 +350,7 @@ nav {
   width: 660px;
   height: 590px;
   border-radius: 20px;
-  background-image: url(/coffee-house/assets/images/about-1.png);
+  background-image: url(../assets/images/about-1.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -359,7 +359,7 @@ nav {
   width: 660px;
   height: 430px;
   border-radius: 20px;
-  background-image: url(/coffee-house/assets/images/about-2.png);
+  background-image: url(../assets/images/about-2.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -368,7 +368,7 @@ nav {
   width: 660px;
   height: 430px;
   border-radius: 20px;
-  background-image: url(/coffee-house/assets/images/about-3.png);
+  background-image: url(../assets/images/about-3.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -377,7 +377,7 @@ nav {
   width: 660px;
   height: 590px;
   border-radius: 20px;
-  background-image: url(/coffee-house/assets/images/about-4.png);
+  background-image: url(../assets/images/about-4.png);
   background-position: center;
   background-repeat: no-repeat;
 }
