@@ -381,3 +381,82 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.mobile-app {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  margin: 144px 0;
+}
+
+.app-title {
+  width: 630px;
+  height: 150px;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 125%;
+  color: #403F3D;
+}
+
+.app-text {
+  margin-top: 40px;
+  width: 630px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #403F3D;
+}
+
+.app-buttons {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.app-buttons button {
+  width: 200px;
+  height: 64px;
+  border-radius: 100px;
+  background-color: #E1D4C9;
+  box-sizing: border-box;
+  border: 1px solid #665F55;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.app-buttons button img {
+  margin-left: 20px;
+}
+
+.app-button-content {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.app-button-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 140%;
+  color: #403F3D;
+}
+
+.app-button-ecosystem {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #403F3D;
+}
