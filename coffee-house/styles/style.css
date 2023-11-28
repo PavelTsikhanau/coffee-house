@@ -69,7 +69,8 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
-  font-weight: 400;
+  font-weight: 600;
+  /* 400 */
 }
 
 /* fonts */
@@ -623,5 +624,71 @@ html {
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
+  color: #403F3D;
+}
+
+.menu-preview {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 40px;
+}
+
+.menu-position {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  width: 310px;
+  height: 506px;
+  border: 1px solid #C1B6AD;
+  border-radius: 40px;
+}
+
+.menu-position-image img {
+  width: 308px;
+  height: 310px;
+  border-radius: 40px;
+}
+
+.menu-position-description {
+  display: flex;
+  height: 196px;
+  justify-content: space-between;
+  /* margin-top: 20px; */
+  padding: 20px 0;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu-position-content {}
+
+.menu-position-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+
+  color: #403F3D;
+}
+
+.menu-position-text {
+  width: 270px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -20px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #403F3D;
+}
+
+.menu-position-price {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+
   color: #403F3D;
 }
