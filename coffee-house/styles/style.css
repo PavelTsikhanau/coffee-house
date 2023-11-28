@@ -135,6 +135,10 @@ html {
   gap: 8px;
 }
 
+.coffee-menu a {
+  color: #403F3D;
+}
+
 .coffee-menu span {
   width: 44px;
   height: 24px;
@@ -430,6 +434,7 @@ html {
   background-color: #E1D4C9;
   box-sizing: border-box;
   border: 1px solid #665F55;
+  color: #665F55;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -450,7 +455,7 @@ html {
   font-weight: 600;
   font-size: 10px;
   line-height: 140%;
-  color: #403F3D;
+
 }
 
 .app-button-ecosystem {
@@ -458,7 +463,7 @@ html {
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
-  color: #403F3D;
+
 }
 
 .footer {
@@ -503,7 +508,6 @@ html {
   width: 60px;
   height: 60px;
   background-color: #665F55;
-  ;
   border: 1px solid #C1B6AD;
   border-radius: 100px;
 }
@@ -548,4 +552,76 @@ html {
   flex-direction: row;
   gap: 8px;
   align-items: start;
+}
+
+/* menu styles */
+.menu-offer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.menu-offer-title {
+  width: 800px;
+  height: 150px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 125%;
+  text-align: center;
+  color: #403F3D;
+}
+
+.menu-offer-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: center;
+}
+
+.menu-offer-buttons button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px 8px 8px;
+  gap: 8px;
+
+
+  height: 46px;
+
+  border-radius: 100px;
+  background: #E1D4C9;
+  border: solid #C1B6AD 1px;
+}
+
+.menu-offer-buttons-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background: #C1B6AD
+}
+
+.menu-offer-buttons-content span {
+  width: 62px;
+  height: 24px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #403F3D;
 }
