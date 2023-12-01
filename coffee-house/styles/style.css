@@ -84,6 +84,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.coffeehouse-site-wrapper {
+  width: 100%;
+}
+
 .coffeehouse-site {
   max-width: 1440px;
   background-color: #E1D4C9;
