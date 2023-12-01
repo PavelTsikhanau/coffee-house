@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+  .header-container {
+    display: none;
+  }
+
+  .header-container-mob {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .header-menu button {
+    display: flex;
+    flex-direction: column;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #E1D4C9;
+    border-radius: 100px;
+    border: 1px solid var(--border-dark, #665F55);
+  }
+
+  .header-menu button div {
+    width: 16px;
+    height: 1px;
+    background-color:#403F3D;
+    border-radius: 100px;
+  }
+}
