@@ -164,14 +164,14 @@ html {
   background-repeat: no-repeat;
 }
 
-.offer {
+.enjoy {
   margin-top: 100px;
   margin-left: 100px;
   width: 530px;
   height: 444px;
 }
 
-.offer-title {
+.enjoy-title {
   width: 100%;
   color: #E1D4C9;
   font-weight: 600;
@@ -186,7 +186,7 @@ html {
   color: #B0907A;
 }
 
-.offer-text {
+.enjoy-text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -195,7 +195,7 @@ html {
   padding-bottom: 40px;
 }
 
-.offer-button {
+.enjoy-button {
   width: 200px;
   height: 64px;
   border-radius: 100px;
@@ -209,7 +209,7 @@ html {
   color: #403F3D;
 }
 
-.offer-button a {
+.enjoy-button a {
   padding: 20px 78px;
   display: flex;
   justify-content: center;
