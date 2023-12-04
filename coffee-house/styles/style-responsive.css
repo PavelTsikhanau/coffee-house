@@ -98,4 +98,26 @@
   width: 100%;
   padding: 0px 60px 100px;
 }
+
+/* menu page */
+.menu-offer-title {
+  width: 100%;
+  height: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 125%;
+  text-align: center;
+  color: #403F3D;
+}
+
+.menu-preview {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1052px;
+  overflow: hidden;
+ 
+  width: 100%;
+  gap: 40px;
+}
 }
