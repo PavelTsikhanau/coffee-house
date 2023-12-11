@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/style-responsive.css">
     <link rel="shortcut icon" href="./assets/images/cup-of-coffee-favico.ico" type="image/x-icon">
     <title>Menu coffee</title>
+    <script defer src="./scripts/index.js"></script>
   </head>
   <body>
     <div class="coffeehouse-site-wrapper">
@@ -51,7 +52,8 @@
               </h1>
             </div>
             <div class="menu-offer-buttons">
-              <button>
+
+              <button id="btn-coffee">
                 <div class="menu-offer-buttons-content">
                   <div class="circle">
                     <img
@@ -61,7 +63,8 @@
                   </div>
                   <span>Coffee</span>
                 </button>
-                <button>
+
+                <button id="btn-tea">
                   <div class="menu-offer-buttons-content">
                     <div class="circle">
                       <img src="./assets/images/teapot-icon.svg" alt="teapot" />
@@ -69,7 +72,8 @@
                     <span>Tea</span>
                   </div>
                 </button>
-                <button>
+
+                <button class="btn-desserts">
                   <div class="menu-offer-buttons-content">
                     <div class="circle">
                       <img
@@ -80,8 +84,10 @@
                     <span>Dessert</span>
                   </div>
                 </button>
+
               </div>
             </div>
+
             <div class="menu-preview">
               <div class="menu-position">
                 <div class="menu-position-image">
@@ -190,6 +196,7 @@
                 </div>
               </div>
             </div>
+            
           </main>
           <footer class="footer" id="footer">
             <div class="footer-content">
@@ -230,6 +237,29 @@
               </div>
             </div>
           </footer>
+        </div>
+      </div>
+    </div>
+    <div class="popup-burger-menu hidden">
+      <div class="burger-menu-header">
+        <img src="./assets/images/logo.png" alt="">
+        <button class="burger-menu-close">
+          <div class="cross1"></div>
+          <div class="cross2"></div>
+        </button>
+      </div>
+      <div class="burger-menu-list">
+        <nav>
+          <ul>
+            <li><a href="./index.html#favorite">Favorite coffee</a></li>
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./index.html#mobile-app">Mobile app</a></li>
+            <li><a href="./index.html#footer">Contact us</a></li>
+          </ul>
+        </nav>
+        <div class="menu-page-button">
+          <span><a href="./coffee.html">Menu</a></span>
+          <img src="./assets/images/coffee-cup.svg" alt="coffee cup" />
         </div>
       </div>
     </div>

@@ -30,6 +30,13 @@
     border-radius: 100px;
   }
 
+  .enjoy {
+    width: 100%;
+    margin: 0px;
+    padding: 100px 60px;
+  }
+ 
+
   .about {
     display: flex;
     flex-direction: column;
